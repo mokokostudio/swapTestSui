@@ -1,0 +1,12 @@
+[package]
+name = "swap"
+version = "1.0.0"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
+
+[addresses]
+swap = "0x0"
+
+controller = "0x917a7c9b059e18d8298c755cba105a152391035f518e723999b23c8d9c8a3d1b"
+beneficiary = "0x917a7c9b059e18d8298c755cba105a152391035f518e723999b23c8d9c8a3d1b"
